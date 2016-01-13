@@ -8,16 +8,10 @@
  * Controller of the fitbugTestApp
  */
 angular.module('fitbugTestApp')
-  .controller('MapctrlCtrl', ['$scope', function ($scope) {
+  .controller('MapctrlCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-        $scope.mapOptions = {
-            center: new google.maps.LatLng(35.784, -78.670),
-            zoom: 15,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-
-  }]);
+  });
