@@ -1,93 +1,233 @@
-<!--<div class="jumbotron">-->
-<!--<h1>'Allo, 'Allo!</h1>-->
-<!--<p class="lead">-->
-<!--<img src="images/yeoman.png" alt="I'm Yeoman"><br>-->
-<!--Always a pleasure scaffolding your apps.-->
-<!--</p>-->
-<!--<p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>-->
-<!--</div>-->
+<div id="map" class="hidden-xs"></div>
+<div class="stats">
+  <div class="container">
+    <div class="row">
+      <div class="lead col-sm-5 vertical-align border-left">
+        <div class="col-xs-2 text-right">
+          <i class="fa fa-drupal"></i>
+        </div>
+        <div class="col-xs-8 col-xs-offset-1">
+          <h3>Zombie 56 days</h3>
+        </div>
+      </div>
 
-<div class="stats row">
-  <div class="col-xs-12 col-sm-6">
-    <div class="col-xs-4">
-      <i class="fa fa-drupal"></i>
+      <div class="lead col-sm-7 secondary">
+        <div class="row">
+          <div class="col-xs-4 text-center">
+            <h4 class="digit">3</h4>
+            <h4>days to go</h4>
+          </div>
+          <div class="col-xs-4 text-center">
+            <h4 class="digit">990,012</h4>
+            <h4>days to go</h4>
+          </div>
+          <div class="col-xs-4 text-center">
+            <h4 class="digit">4</h4>
+            <h4>team position <span class="hidden-xs"> (of 10)</span></h4>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-xs-6">
-      <h3>Zombie 56 days</h3>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-5 border-left border-right">
+      <div class="rules hidden-xs row border-bottom">
+        <div class="col-sm-12">
+          <h2>Rules</h3>
+            <p>Challange description orenm sipum ipsum dolor sit amet,
+              consectetur
+              adipiscing elit. Nulla vestibulum enim mattis nisi auctor
+              convallis.</p>
+            <a href="">See game rules</a>
+        </div>
+      </div>
+
+      <div class="profile row border-bottom section">
+        <div class="col-sm-6">
+          <div class="col-xs-3">
+            <i class="fa fa-user"></i>
+          </div>
+          <div class="col-xs-9">
+            <div class="name">Juliana Frink</div>
+            <div>You</div>
+          </div>
+          <button type="button" class="btn btn-warning">+ Add Activity</button>
+        </div>
+
+        <div class="col-sm-6 hidden-xs border-left">
+          <div class="col-xs-2">
+            <i class="fa fa-user"></i>
+          </div>
+          <div class="col-xs-9">
+            <div class="name">Juliana Frink</div>
+            <div>You</div>
+          </div>
+        </div>
+      </div>
+      <!--</profile -->
+
+      <div class="other-games section row hidden-xs col-sm-12">
+        <h2>Other Games</h2>
+        <ul class="list-unstyled">
+          <li><a href="#">DBS-Around the world in 70 days</a></li>
+          <li><a href="#">DBS-Around the world in 70 days</a></li>
+          <li><a href="#">DBS-Around the world in 70 days</a></li>
+          <li><a href="#">DBS-Around the world in 70 days</a></li>
+        </ul>
+      </div>
+
     </div>
-  </div>
-  <div class="col-xs-4 col-sm-2">
-    <div class="">3</div>
-    days to go
-  </div>
-  <div class="col-xs-4 col-sm-2">
-    <div class=""> 1,000,000</div>
-    steps to go
-  </div>
-  <div class="col-xs-4 col-sm-2">
-    <div>4</div>
-    team position
+
+    <!-- second col -->
+
+    <div class="col-sm-7 leaderboard border-right">
+
+      <h2>Leaderboard</h2>
+
+      <div class="row">
+        <table class="table table-hover">
+          <thead>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">
+              <span>1</span><i class="fa fa-arrow-up"></i>
+            </th>
+            <td>
+              <div class="col-sm-6">
+                <h3>Team F</h3>
+
+                <div>899.000 steps (123,023 avg pp)</div>
+              </div>
+              <div class="digits col-sm-6">
+                <button type="button" class="btn btn-success">Completed</button>
+                <span>12.07.2015 10:22</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span>1</span><i class="fa fa-arrow-up"></i>
+            </th>
+            <td>
+              <div class="col-sm-6">
+                <h3>Team F</h3>
+
+                <div>899.000 steps (123,023 avg pp)</div>
+              </div>
+              <div class="digits col-sm-6">
+                <button type="button" class="btn btn-success">Completed</button>
+                <span>12.07.2015 10:22</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span>1</span><i class="fa fa-arrow-up"></i>
+            </th>
+            <td>
+              <div class="col-sm-6">
+                <h3>Team F</h3>
+
+                <div>899.000 steps (123,023 avg pp)</div>
+              </div>
+              <div class="digits col-sm-6">
+                <button type="button" class="btn btn-success">Completed</button>
+                <span>12.07.2015 10:22</span>
+              </div>
+            </td>
+          </tr>
+          <tr class="warning">
+            <th scope="row">
+              <span>1</span><i class="fa fa-arrow-up"></i>
+            </th>
+            <td>
+              <div class="col-sm-6">
+                <h3>Team F</h3>
+
+                <div>899.000 steps (123,023 avg pp)</div>
+              </div>
+              <div class="digits col-sm-6">
+                <button type="button" class="btn btn-success">Completed</button>
+                <span>12.07.2015 10:22</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span>1</span><i class="fa fa-arrow-up"></i>
+            </th>
+            <td>
+              <div class="col-sm-6">
+                <h3>Team F</h3>
+
+                <div>899.000 steps (123,023 avg pp)</div>
+              </div>
+              <div class="digits col-sm-6">
+                <button type="button" class="btn btn-success">Completed</button>
+                <span>12.07.2015 10:22</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span>1</span><i class="fa fa-arrow-up"></i>
+            </th>
+            <td>
+              <div class="col-sm-6">
+                <h3>Team F</h3>
+
+                <div>899.000 steps (123,023 avg pp)</div>
+              </div>
+              <div class="digits col-sm-6">
+                <button type="button" class="btn btn-danger">Completed</button>
+                <span>12.07.2015 10:22</span>
+              </div>
+            </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
   </div>
 </div>
 
-<div class="rules">
-  <h3>Rules</h3>
 
-  <p>Challange description orenm sipum ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla vestibulum enim mattis nisi auctor convallis.</p>
-  <a href="">See game rules</a>
-</div>
-
-<div class="profile">
-  <div class="col-sm-6">
-    Juliana Frink
-    You
-  </div>
-  <div class="col-sm-6">
-    Team A
-    You + 16
-  </div>
-  <button>Add Activity</button>
-</div>
-
-<div class="leaderboard">
-  <div class="bs-example" data-example-id="hoverable-table">
-    <table class="table table-hover">
-      <thead>
-      <tr>
-        <th>Leaderboard</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-      </tr>
-      </tbody>
-    </table>
+<div class="other-games section visible-xs">
+  <div class="container">
+    <h2>Other Games</h2>
+    <ul class="list-unstyled">
+      <li><a href="#">DBS-Around the world in 70 days</a></li>
+      <li><a href="#">DBS-Around the world in 70 days</a></li>
+      <li><a href="#">DBS-Around the world in 70 days</a></li>
+      <li><a href="#">DBS-Around the world in 70 days</a></li>
+    </ul>
   </div>
 </div>
 
-<div class="other-games">
-  <h2>Other Games</h2>
-  <ul>
-    <li><a href="#">DBS-Around the world in 70 days</a></li>
-    <li><a href="#">DBS-Around the world in 70 days</a></li>
-    <li><a href="#">DBS-Around the world in 70 days</a></li>
-    <li><a href="#">DBS-Around the world in 70 days</a></li>
-  </ul>
-</div>
+
+<script>
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 40, lng: 0},
+      zoom: 2,
+      mapTypeControl: true,
+      mapTypeControlOptions: {
+        style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+        position: google.maps.ControlPosition.CENTER_LEFT
+      },
+      zoomControl: true,
+      streetViewControl: false
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYTyFn64Gy3JjuJbNuUOdIiytWSdyZAZQ&callback=initMap"
+        async defer></script>
