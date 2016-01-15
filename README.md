@@ -1,5 +1,9 @@
 # fitbug-test
 
+Demo: http://217.160.93.150/fitbug/dist/#/
+
+PSD to HTML5 conversion.
+
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.12.1.
 
